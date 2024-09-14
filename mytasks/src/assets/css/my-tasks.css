@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    border : none;
+}
+
+h2, label {
+    color: #5e885e;
+}
+
+body {
+    background-color: #2b2929;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: .5rem;
+    font-size: large;
+    font-weight: 600;
+}
+
+input {
+    height: 3rem;
+    font-size: large;
+    text-align: center;
+    color: #2b2929;
+}
+
+button.sub{
+    background-color: #5e885e;
+    color: aliceblue;
+    height: 3rem;
+    font-weight: 800;
+    font-size: large;
+    cursor: pointer;
+}
+
+
+ul{
+    max-width: 80rem;
+    min-width: 20rem;
+}
+
+li{
+    background-color: rgb(30, 68, 100);
+    font-size: large;
+    font-weight: 600;
+    display: flex;
+}
+
+span {
+    width: 80%;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+span.completed {
+    text-decoration: line-through;
+    text-decoration-thickness: .2rem; /* Aumenta a espessura da linha */
+}
+
+li, button.mark, button.delete {
+    justify-content: end;
+    font-size: large;
+    gap: .2rem;
+    padding: .2rem;
+}
+
+button.mark{
+    display: flex;
+    background-color: #5e885e;
+    cursor: pointer;
+    color: aliceblue;    
+}
+
+button.delete{
+    display: flex;
+    background-color: #5e885e;
+    cursor: pointer;
+    color: aliceblue;
+}
